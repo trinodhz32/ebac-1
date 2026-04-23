@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1292
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 9831
+  controlID: 27
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 9891
+  controlID: 90
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 9892
+  controlID: 91
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 9832
+  controlID: 28
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 9823
+  controlID: 29
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -749,7 +749,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Packages
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/scripts
+  - Packages
   m_LastFoldersGridSize: 96
   m_LastProjectPath: /Users/ladosis2/Desktop/Ebac 1/ebac-1/My project
   m_LockTracker:
@@ -768,12 +768,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 34736
+    - m_Data: 2147483647
     m_LastClickedID:
-      m_Data: 34736
+      m_Data: 2147483647
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 34782
+    - m_Data: 34804
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -806,7 +806,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 34782
+    - m_Data: 34804
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -833,9 +833,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs:
+    - m_Data: 34606
+    m_LastClickedInstanceID: 34606
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -862,7 +863,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 21}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 148
@@ -911,8 +912,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -2258
-      - m_Data: -1328
+      - m_Data: -1340
+      - m_Data: -1326
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1501,9 +1502,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -7.510439, y: -6.5117626, z: 12.814218}
+    m_Target: {x: -6.8070755, y: -4.479576, z: 14.201032}
     speed: 2
-    m_Value: {x: -7.510439, y: -6.5117626, z: 12.814218}
+    m_Value: {x: -6.8070755, y: -4.479576, z: 14.201032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1549,20 +1550,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22363085, y: 0.261409, z: -0.062396605, w: -0.9368939}
+    m_Target: {x: -0.17579783, y: 0.25998586, z: -0.04819877, w: -0.948256}
     speed: 2
-    m_Value: {x: -0.22363085, y: 0.261409, z: -0.06239661, w: -0.9368939}
+    m_Value: {x: -0.17579783, y: 0.25998586, z: -0.04819877, w: -0.94825596}
   m_Size:
-    m_Target: 17.52903
+    m_Target: 13.543684
     speed: 2
-    m_Value: 17.52903
+    m_Value: 13.543684
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.0332478
-    m_SpeedNormalized: 0.5163821
+    m_Speed: 0.9207349
+    m_SpeedNormalized: 0.4600975
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
