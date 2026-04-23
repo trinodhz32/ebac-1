@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 963194232}
   - component: {fileID: 963194233}
   - component: {fileID: 963194234}
+  - component: {fileID: 963194235}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -524,7 +525,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ce06bc343ed34529a5a06fea8581acd, type: 3}
   m_Name: 
@@ -540,11 +541,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5124b4ada1dc4ebc88c11dde1ada528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VariablesBooleanas
+--- !u!114 &963194235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a1a25d200e04a039248465f2792308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariableNumericos
 --- !u!1 &971183582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3655878644092385462, guid: b1f2342e3a2ed4f398828b333f8e4229, type: 3}

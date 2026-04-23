@@ -435,6 +435,7 @@
 "Assets/scripts/PrimitivaGo4.cs"
 "Assets/scripts/PrimitivaGo5.cs"
 "Assets/scripts/SegundoCubo.cs"
+"Assets/scripts/VariableNumericos.cs"
 "Assets/scripts/VariablesBooleanas.cs"
 "Assets/scripts/hola mundo.cs"
 -langversion:9.0
