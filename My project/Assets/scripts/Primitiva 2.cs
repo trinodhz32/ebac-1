@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Primitiva2 : MonoBehaviour
@@ -11,6 +13,8 @@ public class Primitiva2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+          Color colorAleatorio = new Color(Random.value, Random.value, Random.value);
+        GetComponent<MeshRenderer>().material.color = colorAleatorio;
+       
     }
 }
