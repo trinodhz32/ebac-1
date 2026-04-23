@@ -437,6 +437,7 @@
 "Assets/scripts/SegundoCubo.cs"
 "Assets/scripts/VariableNumericos.cs"
 "Assets/scripts/VariablesBooleanas.cs"
+"Assets/scripts/VariablesCharYString.cs"
 "Assets/scripts/hola mundo.cs"
 -langversion:9.0
 /deterministic
