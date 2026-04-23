@@ -428,6 +428,9 @@
 "Assets/scripts/Componente 3.cs"
 "Assets/scripts/CreaCuboCero.cs"
 "Assets/scripts/CubeSpawner.cs"
+"Assets/scripts/Primitiva 1.cs"
+"Assets/scripts/Primitiva 2.cs"
+"Assets/scripts/Primitiva 3.cs"
 "Assets/scripts/hola mundo.cs"
 -langversion:9.0
 /deterministic
