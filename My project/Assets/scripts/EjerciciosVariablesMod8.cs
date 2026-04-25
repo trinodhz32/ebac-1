@@ -17,6 +17,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     private MeshRenderer meshRenderer8;
     string mensaje;
     float noDecimal = 3.14159265f;
+
+    string CuatroDecimales;
     string animal = "Leon marino de agua dulce";
     string resultado = "";
     string borrare = "Yo no soy trino";
@@ -24,8 +26,10 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+            string Completo = noDecimal.ToString();
+            string[] completoDividido = Completo.Split('.'); 
         
-        string final8 = borrare.Substring(5);
+        string final8 = borrare.Substring(4);
         Debug.Log(final8);
 
         for (int modulo8 = 0; modulo8 < animal.Length; modulo8++)
@@ -57,22 +61,39 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
             Debug.LogError("Uno o ambos valores no son números válidos de mil.");
         }
 
+string nombreCompleto = "Santiago Trinidad Diaz Hernandez";
+
+
+        string primeroNombre = nombreCompleto.Substring(0, 8);
+        Debug.Log("Primer nombre (Substring): " + primeroNombre);
+
+        string[] partes = nombreCompleto.Split(' ');
+        Debug.Log("Primer nombre (Split): " + partes[0]);
+        Debug.Log("segundoNombre + misApellidos (Split): " + partes[1]);
+        Debug.Log("misApellidos (Split): " + partes[2]);
+
         string segundoNombre = "Santiago";
         string primerNombre = "Trino";
         string misApellidos = "Diaz Hernandez";
          string salida = $"Mi nombre es: {primerNombre} {segundoNombre} y mis Apellidos son {misApellidos}";
         Debug.Log(salida);
 
-        string losDecimales = noDecimal.ToString();
-        string primerosDecimales = losDecimales.Substring(0, 6);
-        Debug.Log(primerosDecimales);
+        if (completoDividido[1].Length > 4)
+        {
+        CuatroDecimales = completoDividido[1].Substring(0, 4);
+        }
+        else
+        CuatroDecimales = completoDividido[1];
+        string valorListo = completoDividido[0] + "." + CuatroDecimales;
+        Debug. Log(valorListo);
+
 
         meshRenderer8 = GetComponent<MeshRenderer>();
 
         segundoDigito = (int)segundoDigito;
         primerDigito = (int)primerDigito;
         resultadoFInal = (int)primerDigito + (int)segundoDigito;
-    if (resultadoFInal % 2 == 0)
+        if (resultadoFInal % 2 == 0)
             mensaje = "el numero " + resultadoFInal + " es par";
         else
             mensaje = "el numero " + resultadoFInal + " es non";
