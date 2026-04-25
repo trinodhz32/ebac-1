@@ -58,7 +58,7 @@ public class VariableNumericos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        miLong += 2;
+        miLong /= 2;
         Debug.Log (miLong);
     }
 }
