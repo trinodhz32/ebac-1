@@ -441,6 +441,7 @@
 "Assets/scripts/VariablesBooleanas.cs"
 "Assets/scripts/VariablesCharYString.cs"
 "Assets/scripts/hola mundo.cs"
+"Assets/scripts/“Ejercicios de Ciclos y arreglos.cs"
 -langversion:9.0
 /deterministic
 /optimize+

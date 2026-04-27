@@ -511,6 +511,7 @@ GameObject:
   - component: {fileID: 963194234}
   - component: {fileID: 963194235}
   - component: {fileID: 963194236}
+  - component: {fileID: 963194237}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -691,11 +692,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5519e5b620f1c48bf8d136228870ddc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ciclos
+--- !u!114 &963194237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721a7e2365a2f424fac5d2955ae58922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EjerciciosdeCiclosyarreglos
 --- !u!1 &971183582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3655878644092385462, guid: b1f2342e3a2ed4f398828b333f8e4229, type: 3}
