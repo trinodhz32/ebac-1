@@ -23,6 +23,8 @@ public class Clases : MonoBehaviour
         Debug.Log(campo1);
         VuelveCeroAlNumero(out campo1);
         Debug.Log(campo1);
+        ClaseNormal miclase = new ClaseNormal(campo3, campo4);
+        campo1 = miclase.sumarFlotantes(campo3, campo4);
     }
 
     // Update is called once per frame
