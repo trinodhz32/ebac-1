@@ -141,8 +141,9 @@ public void lista()
     //listaNumeros.Sort();
     var listaOrdenada = listaNumeros.OrderBy(p => p).ToList();
     var listaConValoresGrandes = listaNumeros.Where(p => p > 10).ToList();
-
+    var QueyLinq = listaNumeros. 
     Debug.Log("lista base");
+
     foreach (var numero in listaNumeros)
     {
         Debug.Log(numero);
