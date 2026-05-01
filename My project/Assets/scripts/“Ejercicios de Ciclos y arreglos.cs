@@ -29,7 +29,7 @@ public class EjerciciosdeCiclosyarreglos : MonoBehaviour
         tercerArreglo[i] = primerArreglo[i] + segundoArreglo[i];
         }
 
-        string[] Nombres = { "Rulo", "Micho", "Jula", "Charli", "Abuelita", "Yeshua", "MIMI" };
+        string[] Nombres = { "Rulo", "Micho", "Julia", "Chari", "Abuelita", "Yeshua", "MIMI" };
         string nombresUnidos = "";
 
         foreach (string nombre in Nombres)
